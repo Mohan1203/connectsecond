@@ -1,0 +1,99 @@
+.comment-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    margin:  auto;
+}
+
+.comment-container h3{
+    margin:10px 5px;
+}
+
+.comments{
+    display: flex;
+    width: 100%;
+    margin:5px auto;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.comments-pic a img{
+   
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.content{
+    margin: 10px 10px;
+}
+
+.content a{
+    text-decoration: none;
+    color: #2C3333;
+}
+
+.content a h5{
+    margin: 0;
+
+}
+
+.content p{
+    margin: 0;
+}
+
+.comment-sec-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.delete-btn{
+    border: none;
+    background-color: transparent;
+    /* display: none; */
+}   
+
+.delete-btn:hover{
+    cursor: pointer;
+}
+
+.input-comment{
+    position: fixed;
+    bottom: 0;
+    width: 25%;
+    background-color: #f5f5f5;
+}
+
+.comment-box{
+    display: flex;
+    width: 100%;
+    margin: 5px auto;
+}
+
+.input-comment input{
+    width:88%;
+    height: 40px;
+    border: none;
+    padding: 0 10px;
+    font-size: 16px;
+    border:2px solid #f5f5f5;
+
+}
+
+.input-comment button{
+    margin: 0px 10px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.input-comment button:hover{
+    cursor: pointer;
+}
+
+.input-comment input:focus{
+    outline: none;
+}
